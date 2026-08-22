@@ -1,0 +1,1 @@
+// methods are functions that belong to objects.
