@@ -18,8 +18,6 @@
 # print(Student.college_name)
 
 
-
-
 # ===================================================================
 
 
@@ -28,7 +26,7 @@
 class Student:
     college_name="NIET College" # here college_name is called class attribute
     name="anonymous" #class attribute
-    
+
     # parameterized constructors
     def __init__(self, name, marks):
         self.name=name  # here self.name, self.marks are called instance attribute 
