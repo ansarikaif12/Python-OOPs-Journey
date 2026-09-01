@@ -55,17 +55,101 @@
 
 # MULTIPLE INHERITANCE==========================================
 
-class A:
-    varA="welcome to class A"
+# class A:
+#     varA="welcome to class A"
 
-class B:
-    varB="welcome to class B"
+# class B:
+#     varB="welcome to class B"
 
-class C(A,B):
-    varC="Welcome to class C"
+# class C(A,B):
+#     varC="Welcome to class C"
 
-c1=C()
+# c1=C()
 
-print(c1.varC)
-print(c1.varB)
-print(c1.varA)
+# print(c1.varC)
+# print(c1.varB)
+# print(c1.varA)
+
+
+#--------------------------------------------------------------
+
+# 4. Hierarchical Inheritance=======================================
+
+# Ek parent se multiple child classes:
+
+    #    Animal
+    #    /    \
+    #  Dog     Cat
+# class Animal:
+
+#     def eat(self):
+#         print("Eating")
+
+
+# class Dog(Animal):
+
+#     def bark(self):
+#         print("Barking")
+
+
+# class Cat(Animal):
+
+#     def meow(self):
+#         print("Meowing")
+
+
+# d = Dog()
+# c = Cat()
+
+# d.eat()
+# d.bark()
+
+# c.eat()
+# c.meow()
+
+# Dog aur Cat, dono Animal se inherit karte hain.
+
+# ------------------------------------------------------------------
+
+# 5. Hybrid Inheritance=============================================
+
+# Jab inheritance ke do ya usse zyada forms combine hote hain, use hybrid inheritance kehte hain.
+
+#        A
+#       / \
+#      B   C
+#       \ /
+#        D
+
+# class A:
+
+#     def show_a(self):
+#         print("A")
+
+
+# class B(A):
+
+#     def show_b(self):
+#         print("B")
+
+
+# class C(A):
+
+#     def show_c(self):
+#         print("C")
+
+
+# class D(B, C):
+
+#     def show_d(self):
+#         print("D")
+
+
+# obj = D()
+
+# obj.show_a()
+# obj.show_b()
+# obj.show_c()
+# obj.show_d()
+
+# Yahan hierarchical aur multiple inheritance ka combination hai.
